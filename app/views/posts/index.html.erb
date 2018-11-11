@@ -5,4 +5,6 @@
     <h3>by: <%= link_to post.author.name, author_path(post.author) %></h3>
     <p><%= post.description %></p>
   </div>
+  <% @posts.each do |post| %>
+  <div>
 <% end %>
